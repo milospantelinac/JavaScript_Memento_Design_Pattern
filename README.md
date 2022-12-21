@@ -18,3 +18,15 @@ U JavaScriptu Memento se jednostavno implementira serijalizacijom i deserializac
 
 Objekti koji učestvuju u ovom paternu su:
 
+**Originator** -- U primeru: **Person**
+1. Implementira interfejs za kreiranje i vraćanje mementosa
+ -- U primeru koda: hydrate i dehydrate
+2. Objekat čije se stanje privremeno čuva i obnavlja
+
+**Memento** -- U primeru: JSON reprezentacija **Person**
+1. Interno stanje objekta Originator u nekom formatu
+
+**CareTaker** -- U primeru: **CareTaker**
+1. Odgovoran za čuvanje Mementos
+2. Ovo je samo skladište; ne menja Mementos
+
