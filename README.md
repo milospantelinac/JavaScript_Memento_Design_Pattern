@@ -20,7 +20,7 @@ Objekti koji učestvuju u ovom paternu su:
 
 **Originator** -- U primeru: **Person**
 1. Implementira interfejs za kreiranje i vraćanje mementosa
- -- U primeru koda: hydrate i dehydrate
+  - U primeru koda: hydrate i dehydrate
 2. Objekat čije se stanje privremeno čuva i obnavlja
 
 **Memento** -- U primeru: JSON reprezentacija **Person**
