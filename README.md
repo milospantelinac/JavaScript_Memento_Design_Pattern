@@ -1,10 +1,10 @@
 # JavaScript - Memento Design Pattern
 
-Patern Memento omogućuje privremeno skladištenje kao i rekonstrukciju nekog objketa.
+Patern Memento omogućava privremeno skladištenje kao i rekonstrukciju nekog objketa.
 
 ## Upotreba Mementa
 
-Mogli biste posmatrati bazu podataka kao implementaciju Memento dizajn paterna u kojem se objekti čuvaju i obnavljaju. Međutim, najčešći razlog za korištenje ovog paterna je snimanje snapshot-a odnosno stanja objekta tako da se sve naknadne promene mogu lako poništiti ako je potrebno.
+Mogli biste posmatrati bazu podataka kao implementaciju Memento dizajn paterna u kojem se objekti čuvaju i obnavljaju. Međutim, najčešći razlog za korištenje ovog paterna je čuvanje snapshot-a odnosno stanja objekta tako da se sve naknadne promene mogu lako poništiti ako je potrebno.
 
 U suštini, Memento je mali repozitorijum koji skladišti stanje objekta. Scenariji u kojima možda želite vratiti objekat u stanje koje je prethodno postojalo: čuvanje i vraćanje stanja igrača u video igrama ili implementaciju poništavanja operacije u bazi podataka.
 
